@@ -1,0 +1,260 @@
+DS_TEST_ID,TestDescription
+1,verifying 'selecting  the assignment name field. Max length 100 chars.Verify the name from create assignment/set policies/review & assign pages.
+2,Verify dm the student instructions field. Max length 4000 chars.Verify the instruction from create assignment/set policies/review & assign pages.
+3,Verify the zero state of 'create assignment' page 
+4,"Verify the 'Selecting a question source' modal. Selected textbook, Assignment I created, Create your own question options should be displayed."
+5,"Select the textbook and verify the flow. Display of table of content and chapters/question banks. On Select, questions from the Selected chapters should be listed."
+6,Select 'Assignments I created' and verify the display of assignments from all the sections of all the courses of this instructor account. Add questions from the assignments I created.
+7,"Create your own question -  Launch the question editor and create all these question types.Check All That ApplyEssayFile Attachment
+Fill in the Blank
+Matching
+Multiple Choice
+Numeric Response
+Ranking
+Section Break
+Short Answer
+Survey
+True/False
+Worksheet
+Yes/No"
+8,Verify 'add random Selection'. Add questions randomly as individual questions or to a pool.
+9,"Verify the question list in the add questions > list view. 
+Verify the question list (questions, question type, info and check boxes)
+Verify the 'm' flag for manual grading question.
+Verify the filters"
+10,Verify auto gradable and non-auto gradable filter validations
+11,"Verify the question list in the add questions > Individual view. 
+Add questions/section break questions from the individual view
+Verify the 'm' flag for manual grading question."
+12,Add questions as 'individual questions' from list/individual view
+13,Add questions to a pool from  list/individual view. Add questions to a new pool and existing pool.
+14,"Verify the Set points  - Entire assignment, each question and specific question type.
+Verify the validation for max points value for all cases."
+15,Verify the maximum point value for each question and for the assignment
+16,Verify questions assigned and points display
+17,"Verification of lock for the assignment points - add more questions, delete some questions, Reducing the no of questions drawn from the pool"
+18,"Create assignment with pooled questions, delete a question from the pool, moving individual questions to the pool, merging two pools. 
+Verify edit pools (rename, move to, merge pools)"
+19,"Organize assignments > List view: Drag and drop question, delete question, edit score, move up/down questions, edit pools."
+20,Organize assignments > Individual view: Verify the question display and navigations within questions.
+21,"Quick view settings: 
+Enabling / Disabling AAA from Quick view settings 
+Verify question editor from Quick view settings"
+22,"Verify AAA feature. 
+Create assignment with  AAA option enabled for few questions and take the assignment on student side and verify the scores."
+23,"Verify Question editor: 
+Launch Question editor and edit the question. Verify the changes made from question editor."
+24,Voice recording in Question editor interface
+25,Create a zero point assignment and take the assignment on student side
+26,Verify default policies for all 4 types (Homework/Practice/Quiz/Exam) in set policies page
+27,Verify the positive/negative policy displays in the expanded view of advanced settings (set policies page)
+28,Verify start and due date fields. Verify the validations on start and due dates.
+29,Create assignment without due date and verify the student's section home page and instruction modal on student side
+30,Creating assignments with force grading (auto submit) and verify the force grading on Connect side for students
+31,Creating assignments with force grading (auto submit)  and verify the force grading on EZT side for students
+32,"Creating assignments with Late submission and deduction enabled. As a student, take multiple attempts before and after due date. Verify the deductions on student side (both hour and day late deductions)"
+33,"Creating assignments with Late submission and deduction enabled. As a student, take the assignment and keep it in progress. Verify the past due notification on Instructor side."
+34,End the past due in progress attempt from the past due notification page and verify the reports on student side
+35,"Creating assignments with Late submission and deduction enabled. As a student, take the assignment and keep it in progress. Now as the instructor, end the past due attempt from the student activity page"
+36,Create an assignment with Late submission enabled. Enable force grading after activity after due date is over
+37,Create an assignment with Late submission enabled. Enable force grading after activity before due date is reached
+38,Create an assignment with Force Grading enabled. Extend due date before the assignment is force graded
+39,Create an assignment with Force Grading enabled. Extend the due date after the force grading process is started
+40,"Create an assignment with Force Grading enabled. Extent the due date after the force grading is completed.
+Verify the force grading after the extended due date."
+41,Create an assignment with Force Grading enabled. Remove force grading policy when force grading an assignment is in progress
+42,Create an assignment with Force Grading enabled. Remove force grading policy before force grading begins
+43,Create Assignment with Time  limit and take assignment on Student side
+44,Create Assignment with Password and verify the password prompt on student side. Try to enter correct and incorrect passwords in the password field
+45,Create Assignment with Scramble questions enabled and take the assignment on student
+46,Create Assignment with Print option (combination of multiple policies) and take the assignment on student side. Verify the print option while taking assignment and in the post submission view
+47,Create Assignment with Grade for completion option (Both manual and auto gradable questions should be added and Start fresh option be enabled). Take the assignment on student side
+48,Create Assignment with Grade for completion option (Both manual and auto gradable questions should be added and BOP option be enabled). Verify the check box under BOP is disabled. Now try to take multiple attempts on student side
+49,Create assignment with BOP option enabled (Both manual and auto gradable questions should be added ) and do not Select the check box under BOP. Take the assignment on student side
+50,Create assignment with BOP option enabled (Both manual and auto gradable questions should be added ) and Select the check box under BOP. Take the assignment on student side
+51,Create assignment with attempt level deduction. Take multiple attempts on Student side and verify the deductions for attempts >1
+52,Create assignment with attempt level deduction and compound deduction enabled. Take multiple attempts on Student side and verify the deductions for attempts >1
+53,Create Assignment with language tolerance (Fill in the blanks questions should be added) enabled and verify the given tolerance on Student side
+54,Create Assignment with numeric tolerance (Numeric response questions should be added) enabled and verify the given tolerance on Student side
+55,Create Assignment with all the resources enabled and provide deductions. Take the assignment on student side and verify the deductions on accessing the resources
+56,Start Creating assignment with 1 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable no feedback . Take the assignment on Student side and verify if no feedback is displayed on Student side in the post submission and in the Student reports page and the assignment status is displayed as 'submitted' 
+57,Start Creating assignment with 1 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable total score feedback. Take the assignment on Student side and verify if only total score is displayed on Student side in the post submission and in the Student reports page and the see report link is displayed in the Section home page
+58,Start Creating assignment with 1 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable question scores and indicators feedback . Take the assignment on Student side and verify if only total score and correct/incorrect indicators are displayed on Student side in the post submission and in the Student reports page and the see report link is displayed in the Section home page
+59,Start Creating assignment with 1 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable detailed feedback after due . Take the assignment on Student side and verify if only total score is displayed before due date and detailed feedback is displayed after due date on Student side in the post submission and in the Student reports page and the see report link is displayed in the Section home page
+60,Start Creating assignment with 1 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable detailed feedback.  Take the assignment on Student side and verify if  detailed feedback is displayed on Student side in the post submission and in the Student reports page and the see report link is displayed in the Section home page
+61,Start Creating assignment with 1 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable detailed feedback and solutions. Take the assignment on Student side and verify if  detailed feedback and solution is displayed on Student side in the post submission and in the Student reports page and the see report link is displayed in the Section home page
+62,Start Creating assignment with 2 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable no feedback / total score / detailed feedback after due / question scores and indicators feedback / detailed feedback / detailed feedback and solutions. Take all the attempts on Student side and verify the feedback displayed in the post submission and in the Student reports page
+63,Start Creating assignment with 3 attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable no feedback / total score / detailed feedback after due / question scores and indicators feedback / detailed feedback / detailed feedback and solutions. Take all the attempts on Student side and verify the feedback displayed in the post submission and in the Student reports page
+64,Start Creating assignment with unlimited attempt and verify the feedback dropdowns displayed in feedbacks tab. Enable no feedback / total score / detailed feedback after due / question scores and indicators feedback / detailed feedback / detailed feedback and solutions. Take the assignment on Student side and verify the feedback displayed in the post submission and in the Student reports page. Also verify the feedback for 100% score
+65,Create an assignment with delay feedback for one hour option enabled. Take the assignment on student side and verify the feedback after the delay date and time
+66,Create an assignment with delay feedback for specific date and time option enabled. Take the assignment on student side and verify the feedback after the delay date and time
+67,Create an assignment with QLS option enabled and take the assignment on Student side
+68,Create assignment with Check all that apply questions and verify the scoring logic on student side for 'partial scoring' and 'all or nothing scoring'
+69,Create assignment with Fill in the blanks questions and verify the tolerance for accents
+70,Verify business rules and UI validations within set policies page
+71,Verify apply policies to this assignment only
+72,"Apply policies to all the assignment type and the existing assignments, verify the inactive assignments are changed with new settings in primary side. Also verify if the changes are not applied to the existing active assignments."
+73,Create some assignments with and without due date. Start creating another assignment and navigate to set policies page. Make some changes to the due date dependent policies and apply the changes to all future and existing assignment. Verify the existing assignments with and without due date.
+74,"Create new assignment in the section and navigate to the set policies page. Verify if the newly applied policies are displayed as the default policies.
+Create new assignment in a new section within same course and navigate to the set policies page. Verify if the newly applied policies are displayed as the default policies."
+75,Verify the added policies displayed in review and assign page including negative policies (review policies)
+76,Click on edit policies in review and assign and verify set policies page is loaded
+77,Verify save and exit in all the pages (edit assignment/set policies/review and assign)
+78,Verify added questions displayed in review and assign page. Click on edit and verify the navigation from review and assign to edit question page.
+79,"Verify sections within the course are displayed in review and assign page. Current section should be Selected by default (and greyed out)
+"
+80,Check if colleague course and sections are displayed if the course has a colleague
+81,"In set policies page, apply the policy changes to all existing and future assignments. Navigate to review and assign page and Verify 'apply existing' section when the section has a colleague"
+82,"The section should have three colleagues with three different policy permissions. 
+1) Make some changes to the policies and apply the changes to all existing and future assignments. 
+2)Do not Select the option for 'Apply default policy settings to existing shared assignments' in the review & assign page. Assign the assignment. "
+83,"
+Login as all the secondary instructors and verify if none of the policy changes are carried over to the existing assignments"
+84,"1) Make some changes to the policies and apply the changes to all existing and future assignments. 
+2)Select the option for 'apply only to colleagues who are not in control of all policies' in the review & assign page. Assign the assignment. "
+85,Login as the secondary instructors who has 'no policies' and 'dates only' policy permissions and verify if the policy changes are carried over to the secondary instructors
+86,Login as the secondary instructors who has 'all policies' permissions and verify if none of the policy changes are carried over to the secondary instructor
+87,"1) Make some changes to the policies and apply the changes to all existing and future assignments. 
+2)Select the option for 'apply to all colleagues, even those in control of all policies' in the review & assign page. Assign the assignment. "
+88,Login as all the secondary instructors and verify if all the policy changes are carried over to all the instructors
+89,Attach a file in the review and assign page and verify the attached file on student side while taking the assignment
+90,"Click on the student preview icon in review and assign page, and check if it is navigating to student preview take assignment page"
+91,Verifying an assignment's policies in student performance reports page after clicking the assignment link
+92,Start creating EZT assignment with Study attempt option enabled and verify the validations for due date and submission policies
+93,Create Assignments with Study attempt option enabled and try to remove the due date for this assignment from Change dates page
+94,Create Assignments with Study attempt option enabled and try to remove the due date for this assignment from Manage extension page
+95,Create Assignments with Study attempt option enabled and take assignment on student side after due date from Study mode
+96,Create Assignments with Study attempt option enabled. Extend the due date from Change dates page and take the assignment from Study mode on student side after the extended due date 
+97,Create Assignments with Study attempt option enabled. Extend the due date from Manage extensions page for a particular student and take the assignment from Study mode on the student side after the extended due date 
+98,"Once the study attempt becomes active, start editing the assignment and verify the due date, submission policy and the Study attempts policies are disabled in the Set policies page"
+99,Try to extend the due date from the Change dates page for the Active study attempt assignment
+100,Try to extend the due date from the Manage extensions page for the Active study attempt assignment
+101,"Share the study attempt assignment to a colleague. Take the assignment as a student from study mode on secondary side. Now edit the assignment on both secondary and primary side and verify the due date, submission policy and the Study attempts policies are disabled in the Set policies page"
+102,Try to extend the due date from the Change dates page for the above Active study attempt assignment on both Primary and Secondary side
+103,Try to extend the due date from the Manage extensions page for the above Active study attempt assignment on both Primary and Secondary side
+104,Click an assignment and check if all the policies are displayed in policies tab
+105,Check if student submission status is displayed in student activity page
+106,Navigate through all the questions added in question preview page and drop a question for only that assignment
+107,"Duplicate the section and check if no questions are dropped for the assignments (also copy section/assignment, duplicate course)"
+108,"Drop a question by Selection option to remove when copied or duplicated and verify it by copying the assignment (also copy section/assignment, duplicate course)"
+109,Give full credit for a question for only that assignment option Selected
+110,Duplicate the assignment and check if no questions are full credited for the assignments.
+111,"Give full credit a question by Selection option to remove when copied or duplicated and verify it by copying the assignment.  (also copy section/assignment, duplicate course)"
+112,Flag a question to manual grading. Take the assignment on student side. Verify if this questions is displayed under grading queue on Instructor side
+113,Edit an assignment and check if all the added questions are displayed
+114,Edit the name and instructions in add questions page
+115,Verify the policies added while creating the assignments are displayed correctly
+116,Change the policies and assignment type
+117,Select to apply policy changes to the own sections 
+118,"The assignment should have been shared with three instructors with three different policy permissions
+1)Make some changes to the policies on Set policies page and Select 'apply policy edits to colleagues' check box from the review and assign page
+2)Assign the assignment
+3Login as all the secondary instructors and verify if the policy updates made by the primary instructors are carried over to the secondary instructor"
+119,"1)As the primary instructor, Make some changes to the policies on Set policies page and do not Select 'apply policy edits to colleagues' check box from the review and assign page
+2)Assign the assignment"
+120,Login as the secondary instructor who has 'no policies' permission and verify if all the policy updates are carried over to Secondary instructor
+121,Login as the secondary instructor who has 'dates only policies' permission and verify if all the policy updates are carried over to Secondary instructor except dates
+122,Login as the secondary instructor who has 'all policies' permission and verify if none of the policies are carried over to the Secondary instructor
+123,Verify unsharing assignments from review and assign page. Uncheck the secondary instructors section in review and assign page while edit the assignment.
+124,"Try to delete the assignment from 'edit assignment', 'set policies' and 'review and assign' page"
+125,Verify editing the assignment on Secondary instructor who has no policies permission. Navigate to Set policies page and verify if none of the policies are editable
+126,Verify editing the assignment on Secondary instructor who has dates only policies permission. Navigate to Set policies page and verify if none of the policies are editable except dates
+127,Verify editing the assignment on Secondary instructor who has all policies permission. Navigate to Set policies page and verify if all the policies are editable except submission policy
+128,Editing active assignments from view policies and edit assignments flow 
+129,Navigate to organize assignment page and verify if none of the questions / points are editable
+130,Verifying start and due dates. Start date should be displayed as  a text and it should not be editable and due date should be displayed as a text with edit link
+131,Verification of save & exit in all the pages for an active assignment. Assignment should always be in assigned state on 'save and exit'.
+132,Navigate to Set Policies page and verify if the instructor is not allowed to change the assignment type.
+133,Verify if the instructor is not allowed to reduce the time limit / Attempts for an active assignment
+134,Verify if Grade for completion option is disabled for an active assignment
+135,Navigate to Review & assign page. Verify if 'apply policy edits' check box is not displayed under my section and my colleagues
+136,"Try to delete the assignment from 'edit assignment', 'set policies' and 'review and assign' page"
+137,"Instructor has sharing relationship with colleagues (no policies permission)
+1)Make some changes to the policies and assign the assignment
+2)Verify if all the policies changes are carried over to the secondary instructor"
+138,"Instructor has sharing relationship with colleagues (dates only policies permission)
+1)Make some changes to the policies and assign the assignment
+2)Verify if all the policies changes are carried over to the secondary instructor except start and due dates"
+139,"Instructor has sharing relationship with colleagues (all policies permission)
+1)Make some changes to the policies and assign the assignment
+2)Verify if none of the policies are carried over to all policies instructor"
+140,"Editing active assignments on Secondary instructor side from view policies and edit assignments flow. In both the flows, verify start and due dates. Start date should be displayed as  a text and it should not be editable and due date should be displayed as a text with edit link"
+141,Verify editing the assignment on Secondary instructor who has no policies permission. Navigate to Set policies page and verify if none of the policies are editable
+142,Verify editing the assignment on Secondary instructor who has dates only policies permission. Navigate to Set policies page and verify if none of the policies are editable except dates
+143,Verify editing the assignment on Secondary instructor who has all policies permission. Navigate to Set policies page and verify if all the policies are editable except submission policy
+144,"Inactive assignment: Save and exit from Edit assignment, set policies, review and assign pages and  verify the status of the assignment in both student and instructor"
+145,"Active assignment: Save and exit from Edit assignment, set policies, review and assign pages and  verify the status of the assignment in both student and instructor. Verify the student submission and reports after save and exit."
+146,"Active assignment: Save and exit from Edit assignment, set policies, review and assign pages and  verify the status of the assignment in both student and instructor. Verify the student submission and reports after save and exit."
+147,"As instructor, create a marathon with EZT assignments.
+As student, take each assignment as per marathon and verify the instruction overlay for minimum score display. 
+When min score = 0%, minimum score component should not be displayed
+When the assignment is in multiple marathon, minimum score in all marathons should be displayed"
+148,"Create a marathon with ezt assignments with delay feedback, feedback after due date, no feedback policies. Verify that the next assignment is unlocked when the student achieve minimum score in these ezt assignments (immediately after submission)."
+149,"Create a marathon with ezt assignments with deductions (assignment level, question level). Verify that the next assignment is unlocked when the student achieve minimum score in these ezt assignments. Deductions should be applied to the assignments."
+150,"Create a marathon with ezt assignments. Submit these assignments as student. As instructor, adjust credit for some questions in the assignment and verify that the next assignment is getting unlocked (provided score >= min score)."
+151,Verify that the attempts submitted after due date (past due submissions) unlocks the next assignment in the marathon (provided score >= min score).
+152,Verify that the attempts submitted with extension (attempt level extension/due date extension) unlocks the next assignment in the marathon (provided score >= min score). Verify the marathon roadmap for due date display (extended due date).
+153,Verify that the attempts which is auto submitted after due date (force submission) unlocks the next assignment in the marathon (provided score >= min score).
+154,Provide extension for an ezt assignment (which is in a marathon) and verify the students section home page. Verify extension icon with marathon message.
+155,"Create a marathon with homework, practice, quiz, exam and verify the assignment icon on marathon overlay/marathon roadmap "
+156,Create a marathon with ezt assignments with manual graded questions. Verify that the next assignment is unlocked when instructor grades the questions from manual grading queue (score >= minimum score)
+157,Create a marathon with ezt assignments with manual graded questions. Verify that the next assignment remains locked when instructor grades the questions from manual grading queue (score < minimum score)
+158,Create a marathon with ezt assignment and have some student submissions (score < min score). Edit score from the reports (score > = min score) and verify that the next assignment is getting unlocked.
+159,Create a marathon with ezt assignment and have some student submissions (score >= min score). Next assignment would be unlocked. Edit score from the reports (score < min score) and verify that the next assignment is getting locked again (student not started the next unlocked assignment)
+160,Create a marathon with ezt assignment and have some student submissions (score < min score). Edit score from the gradebook (score > = min score) and verify that the next assignment is getting unlocked.
+161,Create a marathon with ezt assignment and have some student submissions (score >= min score). Next assignment would be unlocked. Edit score from the gradebook (score < min score) and verify that the next assignment is getting locked again (student not started the next unlocked assignment)
+162,"Create a marathon with ezt assignment and have some student submissions (score < min score). Express grade this assignment from the gradebook (score > = min score) and verify that the next assignment is getting unlocked.
+Express grade has to be tested with each of the options - all students, submitted students and started students"
+163,Create a marathon with EZT assignment(include late submission option). End the past due attempts(score>=min score) from the instructor side(Student activity page / past due notification page) and verify the next assignment in the marathon for the student
+164,Ending in progress attempts from the Instructor's Student performance report page and verify the next assignment in the marathon for the students
+165,Create a marathon with multiple bundles. First bundle should have more than one EZT assignment. Make the pre req assignment invisible to the student and verify the next assignment in the marathon
+166,"Create a marathon with EZT assignments. After student activity(score>= min score), increase the min score from Marathon page. Verify the next assignment in the marathon on student side"
+167,"Create a marathon with EZT assignments. After student activity(score< min score), decrease the min score from Marathon page. Verify the next assignment in the marathon on student side"
+168,Create a marathon with EZT assignments. Remove start dates for all the assignments from the Manage dates  page. Now edit the marathon and reorder all the assignments. Verify student side(before & after activity)
+169,Create a marathon with EZT assignments. Provide extension for start date(>=start of the next assignment in the marathon) for the pre req assignment. Now verify the student side after taking the pre req assignment
+170,Select some inactive ezt assignments from section home page and navigate to Manage dates page. Extend the start and due date from Change dates - In bulk view. Verify the extended date on Student side
+171,Select some active ezt assignments from section home page and navigate to Manage dates page - In bulk view. Verify if the system is not allowed to extend the start date
+172,Select some active ezt assignments from section home page and navigate to Manage dates page. Extend the due date from Change dates - In bulk view. Verify the extended date on Student side
+173,Select some inactive ezt assignments from section home page and navigate to Manage dates page. Extend the start and due date from Change dates - Individual view. Verify the extended date on Student side
+174,Select some active ezt assignments from section home page and navigate to Manage dates page - individual view. Verify if the system is not allowed to extend the start date
+175,Select some active ezt assignments from section home page and navigate to Manage dates page. Extend the due date from Change dates - Individual view. Verify the extended date on Student side
+176,Select some inactive ezt assignments from section home page and navigate to Manage dates page. Extend the start and due date from Shift dates page. Verify the extended date on Student side
+177,Select some active ezt assignments from section home page and navigate to Manage dates page. Verify if the system is not allowed to shift dates from Shift dates
+178,Select some inactive ezt assignments from section home page and navigate to Manage Extensions page. Extend the start and due date from In bulk page. Verify the extended date on Student side
+179,Select some active ezt assignments from section home page and navigate to Manage Extensions page. Verify if the system is not allowed to extend start date from In bulk page
+180,Select some active ezt assignments from section home page and navigate to Manage Extensions In bulk view page. Extend the due date from In bulk view. Verify the extended date on Student side
+181,Select some inactive ezt assignments from section home page and navigate to Manage Extensions Individual view page. Extend the start and due date from Individual page. Verify the extended date on Student side
+182,Select some active ezt assignments from section home page and navigate to Manage Extensions Individual view page. Verify if the system is not allowed to extend start date from Individual page
+183,Select some active ezt assignments from section home page and navigate to Manage Extensions Individual view page. Extend the due date from Individual view. Verify the extended date on Student side
+184,"Select some inactive/active ezt assignments from section home page and navigate to Manage Extensions - In bulk view. Select some students and provide time limit extension (multiple assignments). 
+Verify the extension on Student side. Only Selected students should get the extension."
+185,"Select some inactive/active ezt assignments from section home page and navigate to Manage Extensions - In bulk view. Select some students and provide attempts extension (multiple assignments). 
+Verify the extension on Student side. Only Selected students should get the extension."
+186,"Select some inactive/active ezt assignments from section home page and navigate to Manage Extensions - Individual view. Select some students and provide time limit extension. 
+Verify the extension on Student side. Only Selected students should get the extension."
+187,"Select some inactive/active ezt assignments from section home page and navigate to Manage Extensions - Individual view. Select some students and provide attempts extension. 
+Verify the extension on Student side. Only Selected students should get the extension."
+188,"Select some inactive/active ezt assignments from section home page and navigate to Manage Extensions - Individual view. 
+Edit/remove the extensions provided and verify the changes on Student side"
+189,Make some changes to the Assignment dates (after giving student extension) and verify if the Student extensions are not overridden by the Assignment dates
+190,Navigate to Student roster page. Click on manage extensions link for a student. Provide section level extension for time limit. Verify if the extensions are applied for the timed assignments on Student side
+191,"Verify the assignments list displayed in the 'min' view of next assignment list. Only the assignments that have not been submitted at least once by the student should be displayed in the min view.
+By default past due assignments (due today and yesterday) and all future due assignments should be displayed."
+192,"Verify the assignments list displayed in the 'max' view of next assignment list. Only the assignments that have attempts remaining to be submitted should be displayed in the min view.
+By default past due assignments (due today and yesterday) and all future due assignments should be displayed."
+193,"Grade by Question - with, without section break questions"
+194,"Grade by student - with, without section break questions"
+195,Grade by parts
+196,"Verify the inline comments, audio comments and text comments"
+197,As instructor report the content issue - from preview tab
+198,Verify the Email
+199,Verify the scoring logic for all native questions
+200,"Create assignment for C15 ISBN: Verify the C15 unsupported question in the add questions tab (list view). It should be grayed out with indicator ""Unsupported question"" and the check boxes should be disabled."
+201,"Create assignment for C15 ISBN: Verify the C15 unsupported question in the add questions tab (individual view).  'add this question' button should be disabled and ""Unsupported question"" indicator should be displayed."
+202,"Create assignment for C15 ISBN: Add random Selection modal: When the selcted chapter contains unsupported questions, the add random Selection modal should 
+1. display the message ""Unsupported questions won't be included in random Selection"". 
+2. display only the supported number of questions  (enter value between # and # questions)"
+203,Legacy data (C15 ISBN): Instructor: Verify the unsupported content indicator in the section home page for C15 unsupported assignment
+204,Legacy data (C15 ISBN): Instructor: Verify the unsupported content indicator in the student activity page for C15 unsupported assignment 
+205,Legacy data (C15 ISBN): Instructor: Verify the unsupported content indicator in the organize assignment page for C15 unsupported question
+206,"Classic ISBN: Instructor should be able to add any question (any C15 unsupported question) to the EZT assignment. There should not be any indicator in add questions, organize assignment, section home page and student activity"
