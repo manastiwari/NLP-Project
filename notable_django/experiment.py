@@ -1,0 +1,116 @@
+from itertools import chain
+from pyspark import SparkContext
+from collections import defaultdict
+from pyspark.accumulators import AccumulatorParam
+import spacy
+import pandas as pd
+import time
+import multiprocessing as mp
+import json
+
+
+
+
+df = pd.read_csv('/home/arv/notable_django/sent3.csv')
+saved_column = df.TestDescription
+second_col = df.DS_TEST_ID
+nlp = spacy.load('en_core_web_sm')
+sc = SparkContext("spark://arv-WSG37555W7-0525:7077","App")
+dic = defaultdict(list)
+dic[0].append([1,1])
+
+
+
+def l(x):
+	print(x)
+
+
+
+#rdd_col = sc.parallelize(second_col)
+rdd = sc.parallelize()
+
+
+rdd2 = (rdd.cartesian(rdd).collect())
+#rdd2_col = (rdd_col.cartesian(rdd_col))
+
+
+
+#rdd2.foreach(l)
+#tmp2 = rdd2.map(lambda x: (round(((nlp(str(x[1][0]).decode('utf-8'),disable=['parser','tagger','textcat']).similarity(nlp(str(x[1][1]).decode('utf-8'),disable=['parser','tagger','textcat']))*100))),[x[0][0],x[0][1]]))
+
+
+#tmp = rdd2.map(lambda x: (abs(x[1]-x[0]),x))
+#var = tmp2.groupByKey().map(lambda x:(x[0],list(x[1]))).collect()
+# f = open("output2.txt","w+")
+# f2 = open("output3.txt","w+")
+
+# for item in var:
+# 	f2.write(str(item))
+for k,v in rdd2:
+	print("\n\n")
+	print(k,v)
+# f.write(str(var))	
+# f.close()	
+
+# def g(x):
+# 	print ("\n\n\n\n\n\n\n\n")
+# 	for k in x:
+# 		print(k)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class ListParam(AccumulatorParam):
+#     def zero(self,value):
+# 	    print("value")
+# 	    print(value)
+#             return dic
+#     def addInPlace(self,val1,val2):
+	    
+# 	    for k,v in val2.iteritems():
+# 		val1[k].append(v)
+# 	    return val1
+
+#dict1 = sc.accumulator(dic,ListParam())
+
+#def f(x1):
+#	global dict1
+#	val2 = defaultdict(list)
+#	val2[abs(x1[0]-x1[1])].append(x1)
+#	dict1+=val2
+
+#for k in var:
+#	print(k)
+
+
+#print(type(dict1.value))
+#di = dict1.value
+#for k,v in di.iteritems():
+#	print(k,v)
+#	print("\n\n")
+#for i in dict1.value:
+#	print(i)
+#	print("\n\n\n")
+#print (dict1.value)
+
